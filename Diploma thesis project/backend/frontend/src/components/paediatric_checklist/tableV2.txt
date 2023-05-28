@@ -1,0 +1,71 @@
+<table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                <thead>
+                <tr>
+                <th></th>
+                  {days.map((day, idx) => (
+                    <th
+                      colSpan="2"
+                      key={idx}
+                    >
+                      {day.toLocaleDateString("en-GB", {
+                        weekday: "short",
+                        day: "numeric",
+                        month: "numeric",
+                      })}
+                    </th>
+                  ))}
+                </tr>
+
+                <tr>
+                <th></th>
+                  {days.map((day, idx) => (
+                    <Fragment key={idx}>
+                      <th>
+                        <div>
+                          <BsFillSunFill />
+                        </div>
+                      </th>
+                      <th>
+                        <div>
+                          <BsFillMoonFill />
+                        </div>
+                      </th>
+                    </Fragment>
+                  ))}
+                </tr>
+                </thead>
+
+                <tbody>
+                    { checklists.map((checklist, index) => (
+                      <tr key={ checklist._id }> <td className="content is-small">{titles[index]}</td>
+                      {days.map((day, dayIdx) => (
+                        <Fragment key={dayIdx}>
+
+                        {getDateISO(checklist.date) == getDateISO(day) && checklist.dayNight
+                          ? <td>
+                              {checklist.pressure
+                                ? <td>pr true</td>
+                                : <td>pr false</td>
+                              }
+                            </td>
+                          :<td> <span> — </span></td>
+                        }
+
+                        {getDateISO(checklist.date) == getDateISO(day) && !checklist.dayNight
+                          ? <td>
+                              {checklist.pressure
+                                ? <td>pr true</td>
+                                : <td>pr false</td>
+                              }
+                            </td>
+                          : <td><span> — </span></td>
+                        }
+                        </Fragment>
+                    ))}
+                    </tr>
+                  )) }
+
+                </tbody>
+
+
+            </table>
