@@ -87,7 +87,7 @@ applications.
 
 **Record Body Map**  
 <br />
-![Alt text](image/Снимок экрана 2023-03-29 184510.png)   
+![Alt text](image/bodyMap.png)   
 <br />
 ![Alt text](image/body-2.png)   
 <br /> 
