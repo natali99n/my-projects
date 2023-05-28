@@ -1,4 +1,4 @@
-# Identifying different types of CoVid-19 reports using clustering methods
+# Web application for digitizing medical records
 
 
 ### Prerequisites
@@ -64,59 +64,34 @@ applications.
 
 ### Result  
 
-#### Screen Home  
+**Screen Home**  
 <br />
 ![Alt text](image/home-1.png)   
 <br />
 ![Alt text](image/home-2.png)   
-<br />
-
-Dataset preprocessing  
-<br />
-![Alt text](images/preprocesing.png)
-<br />
-
-Frequently occurring words in each cluster of the K-means model
-<br />
-![Alt text](images/result_kmeans.png)
-<br />
-
-Visualization of clustering using K-means in 2D and 3D space  
-<br />
-![Alt text](images/k-means.png)
-<br />
-
-Visualization of clustering using DBSCAN in 2D and 3D space  
-<br />
-![Alt text](images/dbscan.png)
 <br />  
 
-Visualization of all words in each cluster of the DBSCAN model  
+**Text record**  
 <br />
-![Alt text](images/result_dbscan.png)
+![Alt text](image/chart-1.png)   
+<br />
+![Alt text](image/chart-2.png)   
 <br />  
 
-Evaluation of algorithms using Homogeneity and Silhouette score  
+**Record Checklist**  
 <br />
-![Alt text](images/score.png)
+![Alt text](image/check-1.png)   
+<br />
+![Alt text](image/check-22.png)   
 <br />  
 
-Confusion matrix for evaluating the K-means algorithm by listing each cluster in more detail
-<br />  
-![Alt text](images/conf_matrix_k-means.png)
-<br />  
+**Record Body Map**  
+<br />
+![Alt text](image/Снимок экрана 2023-03-29 184510.png)   
+<br />
+![Alt text](image/body-2.png)   
+<br /> 
 
-Information on the ratings of each cluster in the K-means model
-<br />
-![Alt text](images/metrics_kmeans.png)
-<br />  
 
-Confusion matrix for evaluating the DBSCAN algorithm by listing each cluster in more detail
-<br />  
-![Alt text](images/conf_matrix_dbscan.png)
-<br />
 
-Information on the ratings of each cluster in the DBSCAN model
-<br />
-![Alt text](images/metrics_dbscan.png)
-<br />
+
