@@ -30,9 +30,9 @@ Department: Department of Cybernetics and Artificial Intelligence
 ## 💻 My opensource projects
 
 *   Undergraduate project ["Identifying different types of CoVid-19 reports using clustering methods"](https://github.com/) - Creation and pre-processing of the dataset and subsequent implementation of K-means and DBSCAN clustering methods to identify different types of messages. 
-*   Graduate project ["Web application for digitizing medical records"](https://github.com/) - Design and implementation of an application for digitizing health records using React.js, Express.js frameworks and storing data in the MongoDB database.
+*   Graduate project ["Web application for digitizing medical records"](https://github.com/) - Design and implementation of an application for digitizing health records using React.js, Express.js frameworks and storing data in the MongoDB database.   
 
-
+<br />
 <p align='center'>
    <a href="https://www.linkedin.com/in/natalia-dankanych-a7a115219/">
        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
