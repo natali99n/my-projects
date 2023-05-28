@@ -29,4 +29,12 @@
 * **confusion_matrix()** - implementation Confusion matrix. **actual** - correct labeling of texts, **predicted** - result of clustering (labels)
 
 ### Installation and launch
+* Install **Anaconda Navigator** for Python 3
+* Start Anaconda Navigator and select **Jupyter Nodebook**
+* A control panel will open in your browser, on which you need to click the **Upload** button and load the project.
+* Open the file with code and after starting the project, press the **Run** button on the top panel for each code cell
+
+### Result
+
+![Alt text](/posts/path/to/img.jpg "Optional title")
 
