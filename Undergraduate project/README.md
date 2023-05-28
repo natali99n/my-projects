@@ -35,6 +35,57 @@
 * Open the file with code and after starting the project, press the **Run** button on the top panel for each code cell
 
 ### Result
+Dataset and its division into classes   
+<br />
+![Alt text](images/dataset.png)   
+<br />
 
-![Alt text](/posts/path/to/img.jpg "Optional title")
+Dataset preprocessing  
+<br />
+![Alt text](images/preprocesing.png)
+<br />
 
+Frequently occurring words in each cluster of the K-means model
+<br />
+![Alt text](images/result_kmeans.png)
+<br />
+
+Visualization of clustering using K-means in 2D and 3D space  
+<br />
+![Alt text](images/k-means.png)
+<br />
+
+Visualization of clustering using DBSCAN in 2D and 3D space  
+<br />
+![Alt text](images/dbscan.png)
+<br />  
+
+Visualization of all words in each cluster of the DBSCAN model  
+<br />
+![Alt text](images/result_dbscan.png)
+<br />  
+
+Evaluation of algorithms using Homogeneity and Silhouette score  
+<br />
+![Alt text](images/score.png)
+<br />  
+
+Confusion matrix for evaluating the K-means algorithm by listing each cluster in more detail
+<br />  
+![Alt text](images/conf_matrix_k-means.png)
+<br />  
+
+Information on the ratings of each cluster in the K-means model
+<br />
+![Alt text](images/metrics_kmeans.png)
+<br />  
+
+Confusion matrix for evaluating the DBSCAN algorithm by listing each cluster in more detail
+<br />  
+![Alt text](images/conf_matrix_dbscan.png)
+<br />
+
+Information on the ratings of each cluster in the DBSCAN model
+<br />
+![Alt text](images/metrics_dbscan.png)
+<br />
