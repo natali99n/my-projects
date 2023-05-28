@@ -1,4 +1,4 @@
-# tema
+# Identifying different types of CoVid-19 reports using clustering methods
 
 
 ### To run the code
