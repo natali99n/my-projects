@@ -15,7 +15,8 @@ Department: Department of Cybernetics and Artificial Intelligence
   
 
 ## 🛠 Technical Stack
-*   Python, React, SQL – Intermediate
+*   Python, SQL, HTML, CSS – Intermediate
+*   React.js, Express.js - Intermediate
 *   C, C# – Beginner
 *   Git Hub, Docker – Beginner
 *   Office Software – Intermediate
