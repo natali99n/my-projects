@@ -7,7 +7,7 @@ The web application, Task Manager, was implemented using Django and Bootstrap. <
 * user registration 
 * login
 
-### Prerequisites
+## Prerequisites
 * Django version 4.2.1
 * Bootstrap version 5.3.0
 * SQLite database
