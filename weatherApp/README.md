@@ -23,3 +23,5 @@ python manage.py runserver
 
 3. Explore the weather information for different cities, add new cities, and delete cities as needed.
 
+![Alt text](image/weatherApp.png)
+
