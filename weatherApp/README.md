@@ -5,11 +5,19 @@ This is a web application built on the Django framework with the use of Bootstra
 ## Installation
 
 1. Clone the repository:
-
+```
+git clone https://github.com/natali99n/my-projects/weatherApp.git
+```
+2 Apply database migrations:
+```
+python manage.py migrate
+```
 ## Usage
 
 1. Start the development server:
-* python manage.py runserver
+```
+python manage.py runserver
+```
 
 2. Open your web browser and access the application at `http://localhost:8000`.
 
