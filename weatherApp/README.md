@@ -1,6 +1,8 @@
 # Weather Web Application
 
-This is a web application built on the Django framework with the use of Bootstrap. It provides weather information for different cities, allows adding new cities, and displays weather data for a selected city. Additionally, it allows deleting a city along with its weather data.
+This is a web application built on the Django framework with the use of Bootstrap. It provides weather information for different cities, allows adding new cities, and displays weather data for a selected city. Additionally, it allows deleting a city along with its weather data.  
+
+The web application utilizes the **OpenWeather API** (https://openweathermap.org/).
 
 ## Installation
 
