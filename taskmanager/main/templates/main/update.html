@@ -1,0 +1,20 @@
+{% extends 'main/base.html '%}
+
+{% block title %}
+Update Task
+{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h1>Update task</h1><br>
+    <form method="post">
+        {% csrf_token %}
+        <h3>Completed: {{ task_edit_form.done }}<br>
+            
+        <br>
+        {{ task_edit_form.title }}<br>
+        {{ task_edit_form.task }}<br>
+        <button type="submit" class="btn btn-success">Update task</button>
+    </form>
+</div>
+{% endblock %}
