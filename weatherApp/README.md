@@ -14,7 +14,7 @@ python manage.py migrate
 ```
 ## Usage
 
-1. Start the development server:
+1. Start the development server in the project directory:
 ```
 python manage.py runserver
 ```
