@@ -4,6 +4,11 @@ This is a web application built on the Django framework with the use of Bootstra
 
 The web application utilizes the **OpenWeather API** (https://openweathermap.org/).
 
+## Prerequisites
+* Django version 4.2.1
+* Bootstrap version 5.3.0
+* SQLite database
+
 ## Installation
 
 1. Clone the repository:
