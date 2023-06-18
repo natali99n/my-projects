@@ -25,7 +25,29 @@ python manage.py runserver
 ## Result  
 
 **Home Screen**  
-* Unauthenticated users see a window prompting them to log in or register
+* Unauthenticated users see a window prompting them to log in or register  
 
-![Alt text](image/notLogin.png)
+![Alt text](image/notLogined.png)
+
+* Authenticated users can view tasks, and they can also see the username of the logged-in user
+* Tasks that have been marked as completed are displayed with a strikethrough font
+* The functionality of displaying each user only their own tasks is currently under development :)  
+
+![Alt text](image/home.png)
+
+**Create task form**  
+* The form allows adding new tasks  
+
+![Alt text](image/create.png)
+
+**Update task**  
+* The form allows editing tasks and marking them as completed    
+
+![Alt text](image/update.png)
+
+**Registration and Login**  
+
+![Alt text](image/register.png)
+
+![Alt text](image/login.png)
 
