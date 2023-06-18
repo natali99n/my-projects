@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Weather App</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Documentation</a></li>
+            </ul>
+        </header>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-4 offset-1">
+                    <h1>Weather in your city</h1>
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        <label for="city">City</label>
+                        {{ form.name }}
+                        <input type="submit" name="send" value="Show" class="mt-2 btn btn-info">
+                    </form>
+
+                </div>
+                <div class="col-4 offset-1">
+                    <h1>Information</h1>
+                    {% if all_info %}
+                    {% for city_info in all_info %}
+                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                        <div class="row">
+                            <div class="col-8">
+                                <h4 class="card-header">{{ city_info.city }}</h4><br>
+                                <b>Temperature: </b> {{ city_info.temp }}<sup>o</sup><br>
+                                <b>Feels like: </b> {{ city_info.feels_like }}<sup>o</sup><br>
+                                <b>Pressure: </b> {{ city_info.pressure }}<br>
+                                <b>Wind speed: </b> {{ city_info.wind_speed }}
+                            </div>
+                            <div class="col-4 align-self-center">
+                                <img src="http://openweathermap.org/img/w/{{ city_info.icon }}.png" alt="Photo"
+                                    class="img-thumbnail">
+                            </div>
+                            <a class="btn-close small" href="{% url "delete_view" city_info.id %}"></a>
+                        </div>
+                    </div>
+                    {%endfor%}
+                    {% else %}
+                    <p>Please enter some city</p>
+                    {% endif %}
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
