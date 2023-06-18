@@ -1,5 +1,11 @@
 # Task Manager Web Application
-
+The web application, Task Manager, was implemented using Django and Bootstrap. <br>  
+**Functionalities:**   
+* include adding tasks 
+* editing tasks
+* deleting tasks
+* user registration 
+* login
 
 ## Installation
 
