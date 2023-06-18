@@ -7,11 +7,17 @@ The web application, Task Manager, was implemented using Django and Bootstrap. <
 * user registration 
 * login
 
+### Prerequisites
+* Django version 4.2.1
+* Bootstrap version 5.3.0
+* SQLite database
+
+
 ## Installation
 
 1. Clone the repository:
 ```
-git clone https://github.com/natali99n/my-projects/weatherApp.git
+git clone https://github.com/natali99n/my-projects/taskmanager.git
 ```
 2 Apply database migrations:
 ```
@@ -26,7 +32,6 @@ python manage.py runserver
 
 2. Open your web browser and access the application at `http://localhost:8000`.
 
-3. Explore the weather information for different cities, add new cities, and delete cities as needed.
 
 ## Result  
 
